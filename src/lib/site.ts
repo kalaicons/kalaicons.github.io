@@ -26,3 +26,6 @@ const wrap = (body: string, size: number) =>
 export const MOON = (s = 18) => wrap('<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/>', s);
 export const SUN = (s = 18) =>
   wrap('<path d="M16 12a4 4 0 1 1-8 0a4 4 0 1 1 8 0Z"/><path d="M12 3v1M12 20v1M5.6 5.6l.7.7M17.7 17.7l.7.7M3 12h1M20 12h1M5.6 18.4l.7-.7M17.7 6.3l.7-.7"/>', s);
+// Secret search tile (DESIGN §2, §4.11 B)
+export const GLASSES = (s = 128) =>
+  wrap('<path d="M10 13a3.5 3.5 0 1 1-7 0a3.5 3.5 0 1 1 7 0Z"/><path d="M21 13a3.5 3.5 0 1 1-7 0a3.5 3.5 0 1 1 7 0Z"/><path d="M10 12.5c1-1.2 3-1.2 4 0"/>', s);

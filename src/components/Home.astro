@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ColorControl from './ColorControl.astro';
 import SizeControl from './SizeControl.astro';
-import { icons, COUNT, CATEGORY_COUNT, DESIGNER_URL, url, ui, slug } from '../lib/site';
+import { icons, COUNT, CATEGORY_COUNT, DESIGNER_URL, url, ui, slug, GLASSES } from '../lib/site';
 import { GLOBAL_STOPS, PANEL_STOPS } from '../lib/stops';
 
 interface Props { open?: string; title?: string }
@@ -128,8 +128,11 @@ const sprite = url('sprite.svg');
         <a class="secret" id="secret" href={DESIGNER_URL} target="_blank" rel="noopener" hidden>
           <span class="t-num">000</span>
           <span class="secret-badge">SECRET</span>
-          <span class="secret-sig" aria-hidden="true">signature<br />icon</span>
-          <span class="mono-s" style="opacity:.7">ananthanath</span>
+          <span class="secret-art" aria-hidden="true">
+            <span class="secret-glasses"><Fragment set:html={GLASSES(128)} /></span>
+            <span class="secret-cap">round-glasses · a nod to Steve Jobs</span>
+          </span>
+          <span class="secret-more">One more thing…</span>
           <span class="secret-title">Made by Ananthanath A.</span>
           <p>I drew all {COUNT} Kalai Icons by hand in Figma. Thanks for digging this deep. Come say hi.</p>
           <span class="btn btn-primary">nathdesign.in ↗</span>

@@ -11,7 +11,8 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "7.3.8"
+    "astro": "7.3.8",
+    "matter-js": "0.20.0"
   },
   "devDependencies": {
     "fflate": "0.8.3",

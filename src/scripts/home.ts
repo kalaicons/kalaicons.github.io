@@ -4,6 +4,7 @@ import { $, $$, BASE, store, copy, toast, trapFocus, reducedMotion } from './com
 import { prepare, search, type Icon } from './search';
 import { code, svgCode, downloadSvg, downloadPng, type Format } from './export';
 import { colorControl, sizeControl, parseHex, snap, GLOBAL_STOPS } from './controls';
+import { dropIcons } from './drop';
 
 const icons = data.icons as Icon[];
 const COUNT = data.count;
@@ -364,7 +365,7 @@ function step(dir: 1 | -1) {
 
 main.addEventListener('click', (e) => {
   const tile = (e.target as HTMLElement).closest<HTMLElement>('.tile');
-  if (tile) openPanel(tile.dataset.code!, 'push');
+  if (tile && !dropping) openPanel(tile.dataset.code!, 'push'); // ignored while icons are away
 });
 $('#p-close').addEventListener('click', () => closePanel('back'));
 panelWrap.addEventListener('click', (e) => { if (e.target === panelWrap) closePanel('back'); });
@@ -448,45 +449,25 @@ addEventListener('popstate', () => {
   }
 });
 
-// --- easter egg A: tap the dot 7× (D-43) -----------------------------------------------
+// --- easter egg A: tap the dot 3× (D-43, DESIGN §4.11) ------------------------------------
 const dot = $('#dot');
 let taps = 0, lastTap = 0, dropping = false;
 dot.addEventListener('click', () => {
   const now = performance.now();
   taps = now - lastTap <= 1500 ? taps + 1 : 1;
   lastTap = now;
-  if (taps < 7) return;
+  if (taps < 3) return;
   taps = 0;
   if (dropping || current) return;
   dropping = true;
   dot.classList.add('found');
-  toast(`Oops, you dropped ${COUNT} icons. Picking them up…`, 'ok', 'star');
+  toast("You can't connect the dots looking forward. Picking them up…", 'ok', 'star');
   const visible = tiles.filter((t) => {
     if (!t.offsetParent) return false;
     const r = t.getBoundingClientRect();
     return r.bottom > 0 && r.top < innerHeight;
   });
-  const runs = visible.map((t) => {
-    const svg = t.querySelector('svg')!;
-    if (reducedMotion()) {
-      return svg.animate([{ opacity: 1 }, { opacity: 0, offset: 0.1 }, { opacity: 0, offset: 0.85 }, { opacity: 1 }], { duration: 3000 }).finished;
-    }
-    const r = svg.getBoundingClientRect();
-    const fall = innerHeight - r.bottom - 4;
-    const tilt = Math.round(Math.random() * 140 - 70);
-    const down = `translateY(${fall}px) rotate(${tilt}deg)`;
-    svg.style.position = 'relative';
-    svg.style.zIndex = '5';
-    return svg.animate([
-      { transform: 'none', easing: 'ease-in' },
-      { transform: down, offset: 0.2, easing: 'ease-out' },
-      { transform: `translateY(${fall - 28}px) rotate(${tilt * 0.8}deg)`, offset: 0.26, easing: 'ease-in' },
-      { transform: down, offset: 0.32 },
-      { transform: down, offset: 0.833, easing: 'ease-out' },
-      { transform: 'none' },
-    ], { duration: 3000 }).finished.then(() => { svg.style.position = svg.style.zIndex = ''; });
-  });
-  Promise.all(runs).finally(() => (dropping = false));
+  dropIcons(visible.map((t) => t.querySelector('svg')!)).finally(() => (dropping = false));
 });
 
 // --- start ---------------------------------------------------------------------------------
