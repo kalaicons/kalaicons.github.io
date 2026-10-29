@@ -1,0 +1,79 @@
+---
+import '../styles/global.css';
+import { COUNT, VERSION, DESIGNER_URL, FIGMA_URL, GITHUB_URL, url, ui, MOON, SUN } from '../lib/site';
+
+interface Props { title?: string; description?: string; current?: 'license' }
+const {
+  title = 'Kalai Icons',
+  description = `${COUNT} free, open-source outline icons. Change the color and size, then copy SVG, JSX, Vue or a Data URL, or download SVG and PNG.`,
+  current,
+} = Astro.props;
+---
+<!doctype html>
+<html lang="en" data-base={url()}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&display=swap" />
+  <script is:inline>
+    // Theme before first paint: saved choice, else the system setting (D-26)
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('kalai-theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark title" href={url()}>Kalai Icons<span class="dot">.</span></a>
+      <span class="header-meta mono-s muted">{VERSION} · MIT</span>
+      <nav class="header-nav" aria-label="Main">
+        <a class="nav-link" href={url('license')} aria-current={current === 'license' ? 'page' : undefined}>License</a>
+        <a class="nav-link" href={FIGMA_URL} target="_blank" rel="noopener">Figma ↗</a>
+        <a class="nav-link" href={GITHUB_URL} target="_blank" rel="noopener">GitHub ↗</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+          <span class="moon"><Fragment set:html={MOON(18)} /></span>
+          <span class="sun" hidden><Fragment set:html={SUN(18)} /></span>
+        </button>
+        <a class="btn btn-primary sm" href={url('kalai-icons-svg.zip')} download="kalai-icons-svg.zip" aria-label="Download all icons as a ZIP file">
+          <Fragment set:html={ui('download-1', 18)} />
+          <span class="zip-long">Download all .zip</span><span class="zip-short">.zip</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <slot />
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-credit"><strong>Kalai Icons</strong> — designed by <a href={DESIGNER_URL} target="_blank" rel="noopener">Ananthanath A. ↗</a></p>
+      <div class="footer-links">
+        <a class="nav-link" href={url('license')}>MIT License</a>
+        <a class="nav-link" href={FIGMA_URL} target="_blank" rel="noopener">Figma Community ↗</a>
+        <a class="nav-link" href={GITHUB_URL} target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+      <p class="footer-meta mono-s muted">{VERSION} · {COUNT} icons</p>
+    </div>
+  </footer>
+
+  <template id="toast-icons">
+    <span data-k="check"><Fragment set:html={ui('check', 18)} /></span>
+    <span data-k="clear"><Fragment set:html={ui('clear', 18)} /></span>
+    <span data-k="star"><Fragment set:html={ui('star', 18)} /></span>
+  </template>
+  <script>
+    import '../scripts/common';
+  </script>
+</body>
+</html>

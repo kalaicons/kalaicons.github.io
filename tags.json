@@ -1,0 +1,4700 @@
+{
+ "home-1": [
+  "building",
+  "house",
+  "main",
+  "start",
+  "homepage"
+ ],
+ "home-2": [
+  "building",
+  "house",
+  "main",
+  "start",
+  "homepage"
+ ],
+ "user": [
+  "person",
+  "avatar",
+  "profile",
+  "account",
+  "people",
+  "member",
+  "contact"
+ ],
+ "user-delete": [
+  "remove",
+  "person",
+  "avatar",
+  "profile",
+  "account",
+  "people",
+  "member",
+  "contact",
+  "trash",
+  "bin",
+  "erase"
+ ],
+ "user-check": [
+  "person",
+  "avatar",
+  "profile",
+  "account",
+  "people",
+  "member",
+  "contact",
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success"
+ ],
+ "user-circle": [
+  "person",
+  "avatar",
+  "profile",
+  "account",
+  "people",
+  "member",
+  "contact",
+  "round"
+ ],
+ "user-group": [
+  "team",
+  "person",
+  "avatar",
+  "profile",
+  "account",
+  "people",
+  "member",
+  "contact",
+  "users",
+  "members"
+ ],
+ "user-add": [
+  "invite",
+  "person",
+  "avatar",
+  "profile",
+  "account",
+  "people",
+  "member",
+  "contact",
+  "plus",
+  "new",
+  "create",
+  "insert"
+ ],
+ "dashboard-1": [
+  "panel",
+  "overview",
+  "layout",
+  "widgets",
+  "admin",
+  "analytics"
+ ],
+ "dashboard-2": [
+  "panel",
+  "overview",
+  "layout",
+  "widgets",
+  "admin",
+  "analytics"
+ ],
+ "dashboard-3": [
+  "panel",
+  "overview",
+  "layout",
+  "widgets",
+  "admin",
+  "analytics"
+ ],
+ "lock-1": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "safety",
+  "privacy",
+  "protection",
+  "access"
+ ],
+ "unlock-1": [
+  "open",
+  "unlocked",
+  "access",
+  "secure",
+  "safety",
+  "privacy",
+  "protection"
+ ],
+ "lock-2": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "safety",
+  "privacy",
+  "protection",
+  "access"
+ ],
+ "unlock-2": [
+  "open",
+  "unlocked",
+  "access",
+  "secure",
+  "safety",
+  "privacy",
+  "protection"
+ ],
+ "key-1": [
+  "password",
+  "access",
+  "unlock",
+  "secure",
+  "safety",
+  "privacy",
+  "protection"
+ ],
+ "key-2": [
+  "password",
+  "access",
+  "unlock",
+  "secure",
+  "safety",
+  "privacy",
+  "protection"
+ ],
+ "shield-good": [
+  "security",
+  "protection",
+  "safe",
+  "secure",
+  "protected",
+  "safety",
+  "privacy",
+  "access"
+ ],
+ "shield-bad": [
+  "security",
+  "protection",
+  "safe",
+  "danger",
+  "unsafe",
+  "threat",
+  "secure",
+  "safety",
+  "privacy",
+  "access"
+ ],
+ "shield-lock": [
+  "security",
+  "protection",
+  "safe",
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "safety",
+  "privacy",
+  "access"
+ ],
+ "shield-info": [
+  "security",
+  "protection",
+  "safe",
+  "information",
+  "about",
+  "details",
+  "secure",
+  "safety",
+  "privacy",
+  "access"
+ ],
+ "shield-off": [
+  "unprotected",
+  "security",
+  "protection",
+  "safe",
+  "disabled",
+  "disable",
+  "inactive",
+  "secure",
+  "safety",
+  "privacy",
+  "access"
+ ],
+ "logout": [
+  "sign",
+  "out",
+  "exit",
+  "leave",
+  "secure",
+  "safety",
+  "privacy",
+  "protection",
+  "access"
+ ],
+ "login": [
+  "sign",
+  "in",
+  "enter",
+  "secure",
+  "safety",
+  "privacy",
+  "protection",
+  "access"
+ ],
+ "password": [
+  "secret",
+  "pin",
+  "code",
+  "security",
+  "secure",
+  "safety",
+  "privacy",
+  "protection",
+  "access"
+ ],
+ "password-key": [
+  "secret",
+  "pin",
+  "code",
+  "security",
+  "access",
+  "unlock",
+  "secure",
+  "safety",
+  "privacy",
+  "protection"
+ ],
+ "password-2": [
+  "secret",
+  "pin",
+  "code",
+  "security",
+  "secure",
+  "safety",
+  "privacy",
+  "protection",
+  "access"
+ ],
+ "dial-pad": [
+  "keypad",
+  "numbers",
+  "phone",
+  "secure",
+  "safety",
+  "privacy",
+  "protection",
+  "access"
+ ],
+ "lock-pattern": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "unlock",
+  "gesture",
+  "safety",
+  "privacy",
+  "protection",
+  "access"
+ ],
+ "help": [
+  "question",
+  "support",
+  "faq",
+  "assistance",
+  "service"
+ ],
+ "warning-circle": [
+  "alert",
+  "caution",
+  "danger",
+  "error",
+  "round",
+  "assistance",
+  "support",
+  "faq",
+  "service"
+ ],
+ "help-2": [
+  "question",
+  "support",
+  "faq",
+  "assistance",
+  "service"
+ ],
+ "info": [
+  "information",
+  "about",
+  "details",
+  "assistance",
+  "support",
+  "faq",
+  "service"
+ ],
+ "help-question": [
+  "support",
+  "faq",
+  "ask",
+  "unknown",
+  "assistance",
+  "service"
+ ],
+ "support": [
+  "help",
+  "customer",
+  "service",
+  "assistance",
+  "faq"
+ ],
+ "headset-mic-1": [
+  "headphones",
+  "support",
+  "audio",
+  "microphone",
+  "record",
+  "voice",
+  "assistance",
+  "faq",
+  "service"
+ ],
+ "headset": [
+  "headphones",
+  "support",
+  "audio",
+  "assistance",
+  "faq",
+  "service"
+ ],
+ "headset-off": [
+  "headphones",
+  "support",
+  "audio",
+  "disabled",
+  "disable",
+  "inactive",
+  "assistance",
+  "faq",
+  "service"
+ ],
+ "headset-mic-2": [
+  "headphones",
+  "support",
+  "audio",
+  "microphone",
+  "record",
+  "voice",
+  "assistance",
+  "faq",
+  "service"
+ ],
+ "headset-mic-2-off": [
+  "headphones",
+  "support",
+  "audio",
+  "microphone",
+  "record",
+  "voice",
+  "disabled",
+  "disable",
+  "inactive",
+  "assistance",
+  "faq",
+  "service"
+ ],
+ "link-1": [
+  "chain",
+  "url",
+  "hyperlink",
+  "connect",
+  "connection",
+  "network",
+  "share"
+ ],
+ "link-2": [
+  "chain",
+  "url",
+  "hyperlink",
+  "connect",
+  "connection",
+  "network",
+  "share"
+ ],
+ "link-off-2": [
+  "chain",
+  "url",
+  "hyperlink",
+  "connect",
+  "disabled",
+  "disable",
+  "inactive",
+  "connection",
+  "network",
+  "share"
+ ],
+ "link-off-1": [
+  "chain",
+  "url",
+  "hyperlink",
+  "connect",
+  "disabled",
+  "disable",
+  "inactive",
+  "connection",
+  "network",
+  "share"
+ ],
+ "link-3": [
+  "chain",
+  "url",
+  "hyperlink",
+  "connect",
+  "connection",
+  "network",
+  "share"
+ ],
+ "link-broke": [
+  "chain",
+  "url",
+  "hyperlink",
+  "connect",
+  "broken",
+  "unlink",
+  "disconnect",
+  "connection",
+  "network",
+  "share"
+ ],
+ "launch-1": [
+  "external",
+  "open",
+  "new",
+  "window",
+  "connection",
+  "network",
+  "share",
+  "url"
+ ],
+ "launch-2": [
+  "external",
+  "open",
+  "new",
+  "window",
+  "connection",
+  "network",
+  "share",
+  "url"
+ ],
+ "share-1": [
+  "send",
+  "social",
+  "network",
+  "connection",
+  "url"
+ ],
+ "share-2": [
+  "send",
+  "social",
+  "network",
+  "connection",
+  "url"
+ ],
+ "share-3": [
+  "send",
+  "social",
+  "network",
+  "connection",
+  "url"
+ ],
+ "send-1": [
+  "paper",
+  "plane",
+  "submit",
+  "share",
+  "message",
+  "connection",
+  "network",
+  "url"
+ ],
+ "send-2": [
+  "paper",
+  "plane",
+  "submit",
+  "share",
+  "message",
+  "connection",
+  "network",
+  "url"
+ ],
+ "satellite": [
+  "signal",
+  "broadcast",
+  "space",
+  "antenna",
+  "connection",
+  "network",
+  "share",
+  "url"
+ ],
+ "wifi": [
+  "wireless",
+  "network",
+  "internet",
+  "connection",
+  "share",
+  "url"
+ ],
+ "wifi-off": [
+  "wireless",
+  "network",
+  "internet",
+  "connection",
+  "disabled",
+  "disable",
+  "inactive",
+  "share",
+  "url"
+ ],
+ "signal": [
+  "network",
+  "reception",
+  "bars",
+  "connection",
+  "share",
+  "url"
+ ],
+ "apps": [
+  "applications",
+  "menu",
+  "grid",
+  "launcher",
+  "layout",
+  "structure",
+  "template",
+  "columns"
+ ],
+ "grid": [
+  "layout",
+  "tiles",
+  "table",
+  "squares",
+  "structure",
+  "template",
+  "columns"
+ ],
+ "grid-off": [
+  "layout",
+  "tiles",
+  "table",
+  "squares",
+  "disabled",
+  "disable",
+  "inactive",
+  "structure",
+  "template",
+  "columns"
+ ],
+ "two-column": [
+  "split",
+  "columns",
+  "layout",
+  "grid",
+  "structure",
+  "template"
+ ],
+ "two-row": [
+  "rows",
+  "layout",
+  "grid",
+  "structure",
+  "template",
+  "columns"
+ ],
+ "three-column": [
+  "split",
+  "columns",
+  "layout",
+  "grid",
+  "structure",
+  "template"
+ ],
+ "three-row": [
+  "rows",
+  "layout",
+  "grid",
+  "structure",
+  "template",
+  "columns"
+ ],
+ "window": [
+  "browser",
+  "frame",
+  "layout",
+  "grid",
+  "structure",
+  "template",
+  "columns"
+ ],
+ "layout-1": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-2": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-3": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-4": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-5": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-6": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-7": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-8": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-9": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-10": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-11": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "layout-12": [
+  "grid",
+  "template",
+  "structure",
+  "wireframe",
+  "page",
+  "sections",
+  "blocks",
+  "columns"
+ ],
+ "align-justify": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "paragraph",
+  "layout"
+ ],
+ "align-left": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "west",
+  "previous",
+  "back",
+  "layout"
+ ],
+ "align-right": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "east",
+  "next",
+  "layout"
+ ],
+ "align-center": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "middle",
+  "centre",
+  "layout"
+ ],
+ "align-horizontal-left": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "row",
+  "side",
+  "west",
+  "previous",
+  "back",
+  "layout"
+ ],
+ "align-horizontal-right": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "row",
+  "side",
+  "east",
+  "next",
+  "layout"
+ ],
+ "align-horizontal-center": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "row",
+  "side",
+  "middle",
+  "centre",
+  "layout"
+ ],
+ "align-vertical-down": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "column",
+  "up",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "layout"
+ ],
+ "align-vertical-top": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "column",
+  "up",
+  "down",
+  "layout"
+ ],
+ "align-vertical-center": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "column",
+  "up",
+  "down",
+  "middle",
+  "centre",
+  "layout"
+ ],
+ "horizontal-distribute": [
+  "row",
+  "side",
+  "spacing",
+  "space",
+  "evenly",
+  "align",
+  "arrange",
+  "position",
+  "layout"
+ ],
+ "vertical-distribute": [
+  "column",
+  "up",
+  "down",
+  "spacing",
+  "space",
+  "evenly",
+  "align",
+  "arrange",
+  "position",
+  "layout"
+ ],
+ "align-to-bottom": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "down",
+  "layout"
+ ],
+ "align-to-top": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "up",
+  "layout"
+ ],
+ "align-from-left": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "west",
+  "previous",
+  "back",
+  "layout"
+ ],
+ "align-to-left": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "west",
+  "previous",
+  "back",
+  "layout"
+ ],
+ "align-to-right": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "east",
+  "next",
+  "layout"
+ ],
+ "align-from-right": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "east",
+  "next",
+  "layout"
+ ],
+ "merge": [
+  "join",
+  "combine",
+  "align",
+  "arrange",
+  "position",
+  "layout"
+ ],
+ "align-to-center": [
+  "alignment",
+  "arrange",
+  "position",
+  "text",
+  "middle",
+  "centre",
+  "layout"
+ ],
+ "download-1": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "transfer",
+  "sync"
+ ],
+ "download-2": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "transfer",
+  "sync"
+ ],
+ "upload-1": [
+  "export",
+  "send",
+  "arrow",
+  "transfer",
+  "save",
+  "sync"
+ ],
+ "upload-2": [
+  "export",
+  "send",
+  "arrow",
+  "transfer",
+  "save",
+  "sync"
+ ],
+ "calendar": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner"
+ ],
+ "calendar-add": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "plus",
+  "new",
+  "create",
+  "insert"
+ ],
+ "calendar-delete": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "remove",
+  "trash",
+  "bin",
+  "erase"
+ ],
+ "calendar-check": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success"
+ ],
+ "calendar-starred": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "favorite",
+  "important"
+ ],
+ "calendar-lock": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "secure",
+  "private",
+  "password",
+  "protected"
+ ],
+ "calendar-setting": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "settings",
+  "gear",
+  "preferences"
+ ],
+ "calendar-block": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "blocked",
+  "forbidden",
+  "ban"
+ ],
+ "calendar-today": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "now"
+ ],
+ "calendar-day": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner"
+ ],
+ "calendar-off": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "disabled",
+  "disable",
+  "inactive"
+ ],
+ "calendar-note": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "notes",
+  "memo",
+  "document",
+  "sticky",
+  "write"
+ ],
+ "date-range": [
+  "calendar",
+  "day",
+  "period",
+  "schedule",
+  "event"
+ ],
+ "calendar-upload": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "export",
+  "send",
+  "arrow"
+ ],
+ "calendar-download": [
+  "date",
+  "schedule",
+  "event",
+  "month",
+  "planner",
+  "save",
+  "import",
+  "get",
+  "arrow"
+ ],
+ "flip-vertical": [
+  "mirror",
+  "reflect",
+  "column",
+  "up",
+  "down",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "flip-horizontal": [
+  "mirror",
+  "reflect",
+  "row",
+  "side",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "flip-vertical-1": [
+  "mirror",
+  "reflect",
+  "column",
+  "up",
+  "down",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "flip-horizontal-1": [
+  "mirror",
+  "reflect",
+  "row",
+  "side",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "flip-vertical-2": [
+  "mirror",
+  "reflect",
+  "column",
+  "up",
+  "down",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "flip-horizontal-2": [
+  "mirror",
+  "reflect",
+  "row",
+  "side",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "move-down": [
+  "reorder",
+  "shift",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "move-up": [
+  "reorder",
+  "shift",
+  "top",
+  "upper",
+  "north",
+  "increase",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "crop": [
+  "cut",
+  "trim",
+  "resize",
+  "image",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "scissors": [
+  "cut",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "edit": [
+  "pencil",
+  "write",
+  "modify",
+  "change",
+  "editing",
+  "tool",
+  "design"
+ ],
+ "edit-1": [
+  "pencil",
+  "write",
+  "modify",
+  "change",
+  "editing",
+  "tool",
+  "design"
+ ],
+ "edit-2": [
+  "pencil",
+  "write",
+  "modify",
+  "change",
+  "editing",
+  "tool",
+  "design"
+ ],
+ "edit-content": [
+  "document",
+  "pencil",
+  "write",
+  "modify",
+  "change",
+  "text",
+  "article",
+  "copy",
+  "editing",
+  "tool",
+  "design"
+ ],
+ "brush": [
+  "paint",
+  "draw",
+  "art",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "brush-1": [
+  "paint",
+  "draw",
+  "art",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "eye": [
+  "view",
+  "visible",
+  "show",
+  "watch",
+  "see",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "eye-off": [
+  "view",
+  "visible",
+  "show",
+  "watch",
+  "see",
+  "disabled",
+  "disable",
+  "inactive",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "picker": [
+  "eyedropper",
+  "color",
+  "pick",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "picker-off": [
+  "eyedropper",
+  "color",
+  "pick",
+  "disabled",
+  "disable",
+  "inactive",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "push-pin": [
+  "attach",
+  "stick",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "search": [
+  "find",
+  "magnifier",
+  "look",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "magnifier-zoom-in": [
+  "magnifying",
+  "glass",
+  "search",
+  "magnify",
+  "scale",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "magnifier-zoom-out": [
+  "magnifying",
+  "glass",
+  "search",
+  "magnify",
+  "scale",
+  "minus",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "delete": [
+  "trash",
+  "remove",
+  "bin",
+  "erase",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "delete-1": [
+  "remove",
+  "trash",
+  "bin",
+  "erase",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "delete-2": [
+  "remove",
+  "trash",
+  "bin",
+  "erase",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "delete-3": [
+  "remove",
+  "trash",
+  "bin",
+  "erase",
+  "editing",
+  "tool",
+  "modify",
+  "design"
+ ],
+ "no-border": [
+  "none",
+  "edge",
+  "outline",
+  "frame",
+  "table",
+  "cell",
+  "layer",
+  "design"
+ ],
+ "border-bottom": [
+  "edge",
+  "outline",
+  "frame",
+  "table",
+  "cell",
+  "down",
+  "layer",
+  "design"
+ ],
+ "border-horizontal": [
+  "edge",
+  "outline",
+  "frame",
+  "table",
+  "cell",
+  "row",
+  "side",
+  "layer",
+  "design"
+ ],
+ "border-inner": [
+  "edge",
+  "outline",
+  "frame",
+  "table",
+  "cell",
+  "inside",
+  "internal",
+  "layer",
+  "design"
+ ],
+ "border-top-left": [
+  "edge",
+  "outline",
+  "frame",
+  "table",
+  "cell",
+  "up",
+  "west",
+  "previous",
+  "back",
+  "layer",
+  "design"
+ ],
+ "border-left": [
+  "edge",
+  "outline",
+  "frame",
+  "table",
+  "cell",
+  "west",
+  "previous",
+  "back",
+  "layer",
+  "design"
+ ],
+ "border-top": [
+  "edge",
+  "outline",
+  "frame",
+  "table",
+  "cell",
+  "up",
+  "layer",
+  "design"
+ ],
+ "border-right": [
+  "edge",
+  "outline",
+  "frame",
+  "table",
+  "cell",
+  "east",
+  "next",
+  "layer",
+  "design"
+ ],
+ "zoom-in": [
+  "magnify",
+  "scale",
+  "border",
+  "layer",
+  "design",
+  "table"
+ ],
+ "zoom-out": [
+  "magnify",
+  "scale",
+  "minus",
+  "border",
+  "layer",
+  "design",
+  "table"
+ ],
+ "add-layer": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "layers",
+  "stack",
+  "arrange",
+  "border",
+  "design",
+  "table"
+ ],
+ "add-layer-1": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "layers",
+  "stack",
+  "arrange",
+  "border",
+  "design",
+  "table"
+ ],
+ "layer-check": [
+  "layers",
+  "stack",
+  "arrange",
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success",
+  "border",
+  "design",
+  "table"
+ ],
+ "layer": [
+  "layers",
+  "stack",
+  "arrange",
+  "border",
+  "design",
+  "table"
+ ],
+ "layer-off": [
+  "layers",
+  "stack",
+  "arrange",
+  "disabled",
+  "disable",
+  "inactive",
+  "border",
+  "design",
+  "table"
+ ],
+ "layer-1": [
+  "layers",
+  "stack",
+  "arrange",
+  "border",
+  "design",
+  "table"
+ ],
+ "layer-off-1": [
+  "layers",
+  "stack",
+  "arrange",
+  "disabled",
+  "disable",
+  "inactive",
+  "border",
+  "design",
+  "table"
+ ],
+ "folder": [
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "add-folder": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "delete-folder": [
+  "remove",
+  "trash",
+  "bin",
+  "erase",
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "download-folder": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "lock-folder": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "favourite-folder": [
+  "favorite",
+  "star",
+  "like",
+  "saved",
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "remove-folder": [
+  "minus",
+  "delete",
+  "subtract",
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "upload-folder": [
+  "export",
+  "send",
+  "arrow",
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "exclamation-folder": [
+  "warning",
+  "alert",
+  "important",
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "folder-off": [
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project",
+  "disabled",
+  "disable",
+  "inactive"
+ ],
+ "check-folder": [
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success",
+  "directory",
+  "files",
+  "storage",
+  "organize",
+  "project"
+ ],
+ "file": [
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "add-file": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "delete-file": [
+  "remove",
+  "trash",
+  "bin",
+  "erase",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "check-file": [
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "favourite-file": [
+  "favorite",
+  "star",
+  "like",
+  "saved",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "lock-file": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "remove-file": [
+  "minus",
+  "delete",
+  "subtract",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "graph-file": [
+  "chart",
+  "statistics",
+  "analytics",
+  "line",
+  "report",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "code-file": [
+  "developer",
+  "programming",
+  "brackets",
+  "markup",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "download-file-1": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "upload-file-2": [
+  "export",
+  "send",
+  "arrow",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "download-file": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "upload-file": [
+  "export",
+  "send",
+  "arrow",
+  "document",
+  "page",
+  "paper",
+  "doc",
+  "sheet"
+ ],
+ "note": [
+  "notes",
+  "memo",
+  "document",
+  "sticky",
+  "write",
+  "paste"
+ ],
+ "note-1": [
+  "notes",
+  "memo",
+  "document",
+  "sticky",
+  "write",
+  "paste"
+ ],
+ "add-note": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "notes",
+  "memo",
+  "document",
+  "sticky",
+  "write",
+  "paste"
+ ],
+ "delete-note": [
+  "remove",
+  "trash",
+  "bin",
+  "erase",
+  "notes",
+  "memo",
+  "document",
+  "sticky",
+  "write",
+  "paste"
+ ],
+ "clipboard": [
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "clipboard-1": [
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "clipboard-off": [
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "disabled",
+  "disable",
+  "inactive",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "list-clipboard": [
+  "items",
+  "checklist",
+  "bullets",
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "edit-clipboard": [
+  "pencil",
+  "write",
+  "modify",
+  "change",
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "check-clipboard": [
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success",
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "delete-clipboard": [
+  "remove",
+  "trash",
+  "bin",
+  "erase",
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "exclamation-clipboard": [
+  "warning",
+  "alert",
+  "important",
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "code-clipboard": [
+  "developer",
+  "programming",
+  "brackets",
+  "markup",
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "download-clipboard": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "paste",
+  "board",
+  "copy",
+  "tasks",
+  "notes",
+  "memo",
+  "document"
+ ],
+ "content": [
+  "paragraph",
+  "text",
+  "document",
+  "article",
+  "copy",
+  "notes",
+  "memo",
+  "paste"
+ ],
+ "ellipse": [
+  "circle",
+  "oval",
+  "round",
+  "shape",
+  "geometry",
+  "polygon",
+  "form"
+ ],
+ "triangle": [
+  "shape",
+  "polygon",
+  "three",
+  "warning",
+  "geometry",
+  "form"
+ ],
+ "square": [
+  "box",
+  "shape",
+  "geometry",
+  "polygon",
+  "form"
+ ],
+ "pentagon": [
+  "shape",
+  "polygon",
+  "five",
+  "geometry",
+  "form"
+ ],
+ "hexagon": [
+  "shape",
+  "polygon",
+  "six",
+  "geometry",
+  "form"
+ ],
+ "star": [
+  "favorite",
+  "rating",
+  "bookmark",
+  "shape",
+  "geometry",
+  "polygon",
+  "form"
+ ],
+ "settings": [
+  "gear",
+  "cog",
+  "preferences",
+  "options",
+  "configuration",
+  "controls"
+ ],
+ "settings-2": [
+  "gear",
+  "cog",
+  "preferences",
+  "options",
+  "configuration",
+  "controls"
+ ],
+ "sliders": [
+  "settings",
+  "controls",
+  "adjust",
+  "equalizer",
+  "options",
+  "preferences",
+  "configuration"
+ ],
+ "sliders-1": [
+  "settings",
+  "controls",
+  "adjust",
+  "equalizer",
+  "options",
+  "preferences",
+  "configuration"
+ ],
+ "arrow-up": [
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase"
+ ],
+ "arrow-down": [
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease"
+ ],
+ "arrow-left": [
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back"
+ ],
+ "arrow-right": [
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next"
+ ],
+ "arrow-up-left": [
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase",
+  "west",
+  "previous",
+  "back"
+ ],
+ "arrow-up-right": [
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase",
+  "east",
+  "next"
+ ],
+ "arrow-down-left": [
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "west",
+  "previous",
+  "back"
+ ],
+ "arrow-down-right": [
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "east",
+  "next"
+ ],
+ "chevron-up": [
+  "caret",
+  "arrow",
+  "direction",
+  "expand",
+  "top",
+  "upper",
+  "north",
+  "increase",
+  "navigate"
+ ],
+ "chevron-down": [
+  "caret",
+  "arrow",
+  "direction",
+  "expand",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "navigate"
+ ],
+ "chevron-left": [
+  "caret",
+  "arrow",
+  "direction",
+  "expand",
+  "west",
+  "previous",
+  "back",
+  "navigate"
+ ],
+ "chevron-right": [
+  "caret",
+  "arrow",
+  "direction",
+  "expand",
+  "east",
+  "next",
+  "navigate"
+ ],
+ "double-arrow-up": [
+  "fast",
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase"
+ ],
+ "double-arrow-down": [
+  "fast",
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease"
+ ],
+ "double-arrow-left": [
+  "fast",
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back"
+ ],
+ "double-arrow-right": [
+  "fast",
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next"
+ ],
+ "circle-arrow-up": [
+  "round",
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase"
+ ],
+ "circle-arrow-down": [
+  "round",
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease"
+ ],
+ "circle-arrow-left": [
+  "round",
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back"
+ ],
+ "circle-arrow-right": [
+  "round",
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next"
+ ],
+ "circle-arrow-up-1": [
+  "round",
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase"
+ ],
+ "circle-arrow-down-1": [
+  "round",
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease"
+ ],
+ "circle-arrow-left-1": [
+  "round",
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back"
+ ],
+ "circle-arrow-right-1": [
+  "round",
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next"
+ ],
+ "crossover-arrows-left": [
+  "swap",
+  "switch",
+  "exchange",
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back",
+  "arrow"
+ ],
+ "crossover-arrows-right": [
+  "swap",
+  "switch",
+  "exchange",
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next",
+  "arrow"
+ ],
+ "crossover-arrows-up": [
+  "swap",
+  "switch",
+  "exchange",
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase",
+  "arrow"
+ ],
+ "crossover-arrows-down": [
+  "swap",
+  "switch",
+  "exchange",
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "arrow"
+ ],
+ "arrow-diagonal": [
+  "direction",
+  "pointer",
+  "navigate",
+  "slant",
+  "corner",
+  "resize"
+ ],
+ "arrow-vertical": [
+  "direction",
+  "pointer",
+  "navigate",
+  "column",
+  "up",
+  "down"
+ ],
+ "arrow-compress": [
+  "direction",
+  "pointer",
+  "navigate",
+  "shrink",
+  "minimize",
+  "collapse",
+  "reduce"
+ ],
+ "arrow-horizontal": [
+  "direction",
+  "pointer",
+  "navigate",
+  "row",
+  "side"
+ ],
+ "arrow-expand": [
+  "direction",
+  "pointer",
+  "navigate",
+  "enlarge",
+  "maximize",
+  "fullscreen",
+  "grow"
+ ],
+ "arrow-move": [
+  "direction",
+  "pointer",
+  "navigate",
+  "reorder",
+  "shift"
+ ],
+ "arrow-compress-1": [
+  "direction",
+  "pointer",
+  "navigate",
+  "shrink",
+  "minimize",
+  "collapse",
+  "reduce"
+ ],
+ "arrow-expand-1": [
+  "direction",
+  "pointer",
+  "navigate",
+  "enlarge",
+  "maximize",
+  "fullscreen",
+  "grow"
+ ],
+ "shuffle-arrow": [
+  "random",
+  "mix",
+  "direction",
+  "pointer",
+  "navigate"
+ ],
+ "exchange": [
+  "swap",
+  "transfer",
+  "switch",
+  "direction",
+  "arrow",
+  "navigate"
+ ],
+ "exchange-diagonal": [
+  "swap",
+  "transfer",
+  "switch",
+  "slant",
+  "corner",
+  "resize",
+  "direction",
+  "arrow",
+  "navigate"
+ ],
+ "trending-up": [
+  "trend",
+  "growth",
+  "chart",
+  "stocks",
+  "top",
+  "upper",
+  "north",
+  "increase",
+  "direction",
+  "arrow",
+  "navigate"
+ ],
+ "trending-down": [
+  "trend",
+  "growth",
+  "chart",
+  "stocks",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "direction",
+  "arrow",
+  "navigate"
+ ],
+ "arrow-right-down": [
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next",
+  "bottom",
+  "lower",
+  "south",
+  "decrease"
+ ],
+ "arrow-left-up": [
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back",
+  "top",
+  "upper",
+  "north",
+  "increase"
+ ],
+ "arrow-left-down": [
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back",
+  "bottom",
+  "lower",
+  "south",
+  "decrease"
+ ],
+ "arrow-right-up": [
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next",
+  "top",
+  "upper",
+  "north",
+  "increase"
+ ],
+ "bend-arrow-up": [
+  "turn",
+  "curve",
+  "redirect",
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase"
+ ],
+ "bend-arrow-down": [
+  "turn",
+  "curve",
+  "redirect",
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease"
+ ],
+ "bend-arrow-left": [
+  "turn",
+  "curve",
+  "redirect",
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back"
+ ],
+ "bend-arrow-right": [
+  "turn",
+  "curve",
+  "redirect",
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next"
+ ],
+ "line-arrow-up": [
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase"
+ ],
+ "line-arrow-down": [
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease"
+ ],
+ "line-arrow-left": [
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back"
+ ],
+ "line-arrow-right": [
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next"
+ ],
+ "arrow-merge": [
+  "direction",
+  "pointer",
+  "navigate",
+  "join",
+  "combine"
+ ],
+ "arrow-divide": [
+  "direction",
+  "pointer",
+  "navigate",
+  "split",
+  "fork",
+  "branch"
+ ],
+ "arrow-resize-horizontal": [
+  "direction",
+  "pointer",
+  "navigate",
+  "scale",
+  "row",
+  "side"
+ ],
+ "arrow-resize-vertical": [
+  "direction",
+  "pointer",
+  "navigate",
+  "scale",
+  "column",
+  "up",
+  "down"
+ ],
+ "arrows-horizontal-expand": [
+  "direction",
+  "pointer",
+  "navigate",
+  "row",
+  "side",
+  "enlarge",
+  "maximize",
+  "fullscreen",
+  "grow",
+  "arrow"
+ ],
+ "arrows-vertical-expand": [
+  "direction",
+  "pointer",
+  "navigate",
+  "column",
+  "up",
+  "down",
+  "enlarge",
+  "maximize",
+  "fullscreen",
+  "grow",
+  "arrow"
+ ],
+ "square-arrow-up": [
+  "box",
+  "shape",
+  "direction",
+  "pointer",
+  "navigate",
+  "top",
+  "upper",
+  "north",
+  "increase"
+ ],
+ "square-arrow-down": [
+  "box",
+  "shape",
+  "direction",
+  "pointer",
+  "navigate",
+  "bottom",
+  "lower",
+  "south",
+  "decrease"
+ ],
+ "square-arrow-left": [
+  "box",
+  "shape",
+  "direction",
+  "pointer",
+  "navigate",
+  "west",
+  "previous",
+  "back"
+ ],
+ "square-arrow-right": [
+  "box",
+  "shape",
+  "direction",
+  "pointer",
+  "navigate",
+  "east",
+  "next"
+ ],
+ "suitcase": [
+  "briefcase",
+  "work",
+  "business",
+  "luggage",
+  "travel"
+ ],
+ "suitcase-1": [
+  "briefcase",
+  "work",
+  "business",
+  "luggage",
+  "travel"
+ ],
+ "suitcase-2": [
+  "briefcase",
+  "work",
+  "business",
+  "luggage",
+  "travel"
+ ],
+ "suitcase-off": [
+  "briefcase",
+  "work",
+  "business",
+  "luggage",
+  "disabled",
+  "disable",
+  "inactive",
+  "travel"
+ ],
+ "luggage": [
+  "suitcase",
+  "travel",
+  "baggage",
+  "briefcase",
+  "work"
+ ],
+ "clock": [
+  "time",
+  "hour",
+  "watch",
+  "schedule",
+  "duration"
+ ],
+ "watch": [
+  "time",
+  "smartwatch",
+  "wrist",
+  "clock",
+  "schedule",
+  "duration"
+ ],
+ "timer": [
+  "stopwatch",
+  "countdown",
+  "time",
+  "clock",
+  "schedule",
+  "duration"
+ ],
+ "alarm": [
+  "alert",
+  "clock",
+  "wake",
+  "reminder",
+  "time",
+  "schedule",
+  "duration"
+ ],
+ "update": [
+  "refresh",
+  "reload",
+  "sync",
+  "time",
+  "clock",
+  "schedule",
+  "duration"
+ ],
+ "history": [
+  "past",
+  "recent",
+  "time",
+  "back",
+  "clock",
+  "schedule",
+  "duration"
+ ],
+ "hourglass": [
+  "time",
+  "wait",
+  "loading",
+  "timer",
+  "clock",
+  "schedule",
+  "duration"
+ ],
+ "hourglass-off": [
+  "time",
+  "wait",
+  "loading",
+  "timer",
+  "disabled",
+  "disable",
+  "inactive",
+  "clock",
+  "schedule",
+  "duration"
+ ],
+ "timer-off": [
+  "stopwatch",
+  "countdown",
+  "time",
+  "disabled",
+  "disable",
+  "inactive",
+  "clock",
+  "schedule",
+  "duration"
+ ],
+ "volume-up": [
+  "sound",
+  "speaker",
+  "audio",
+  "top",
+  "upper",
+  "north",
+  "increase",
+  "music"
+ ],
+ "volume-down": [
+  "sound",
+  "speaker",
+  "audio",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "music"
+ ],
+ "volume-low": [
+  "sound",
+  "speaker",
+  "audio",
+  "quiet",
+  "music"
+ ],
+ "volume-mute": [
+  "no",
+  "sound",
+  "speaker",
+  "audio",
+  "silent",
+  "silence",
+  "quiet",
+  "off",
+  "music"
+ ],
+ "volume-off": [
+  "sound",
+  "speaker",
+  "audio",
+  "disabled",
+  "disable",
+  "inactive",
+  "music"
+ ],
+ "volume-up-1": [
+  "sound",
+  "speaker",
+  "audio",
+  "top",
+  "upper",
+  "north",
+  "increase",
+  "music"
+ ],
+ "volume-down-1": [
+  "sound",
+  "speaker",
+  "audio",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "music"
+ ],
+ "mic": [
+  "microphone",
+  "record",
+  "voice",
+  "audio",
+  "sound",
+  "music",
+  "speaker"
+ ],
+ "mic-off": [
+  "microphone",
+  "record",
+  "voice",
+  "audio",
+  "disabled",
+  "disable",
+  "inactive",
+  "sound",
+  "music",
+  "speaker"
+ ],
+ "video": [
+  "movie",
+  "film",
+  "camera",
+  "record",
+  "media",
+  "recording"
+ ],
+ "video-off": [
+  "movie",
+  "film",
+  "camera",
+  "record",
+  "disabled",
+  "disable",
+  "inactive",
+  "media",
+  "recording"
+ ],
+ "video-playlist": [
+  "movie",
+  "film",
+  "camera",
+  "record",
+  "queue",
+  "list",
+  "media",
+  "recording"
+ ],
+ "photo-camera": [
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery",
+  "snapshot",
+  "media",
+  "film",
+  "recording"
+ ],
+ "photo-camera-off": [
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery",
+  "snapshot",
+  "disabled",
+  "disable",
+  "inactive",
+  "media",
+  "film",
+  "recording"
+ ],
+ "add-photo-camera": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery",
+  "snapshot",
+  "media",
+  "film",
+  "recording"
+ ],
+ "photo": [
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "add-photo": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "delete-photo": [
+  "remove",
+  "trash",
+  "bin",
+  "erase",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "check-photo": [
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "download-photo": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "upload-photo": [
+  "export",
+  "send",
+  "arrow",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "remove-photo": [
+  "minus",
+  "delete",
+  "subtract",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "favourite-photo": [
+  "favorite",
+  "star",
+  "like",
+  "saved",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "lock-photo": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "expand-photo": [
+  "enlarge",
+  "maximize",
+  "fullscreen",
+  "grow",
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery"
+ ],
+ "album": [
+  "gallery",
+  "collection",
+  "photos",
+  "images",
+  "image",
+  "picture"
+ ],
+ "photo-off": [
+  "image",
+  "picture",
+  "photography",
+  "landscape",
+  "gallery",
+  "disabled",
+  "disable",
+  "inactive"
+ ],
+ "mobile": [
+  "phone",
+  "smartphone",
+  "device",
+  "cell",
+  "telephone",
+  "call",
+  "contact"
+ ],
+ "mobile-off": [
+  "phone",
+  "smartphone",
+  "device",
+  "cell",
+  "disabled",
+  "disable",
+  "inactive",
+  "telephone",
+  "call",
+  "contact"
+ ],
+ "phone": [
+  "telephone",
+  "call",
+  "contact",
+  "handset",
+  "ring"
+ ],
+ "phone-call": [
+  "telephone",
+  "contact",
+  "handset",
+  "ring"
+ ],
+ "phone-off": [
+  "telephone",
+  "call",
+  "contact",
+  "handset",
+  "ring",
+  "disabled",
+  "disable",
+  "inactive"
+ ],
+ "end-phone": [
+  "decline",
+  "hang",
+  "up",
+  "stop",
+  "telephone",
+  "call",
+  "contact",
+  "handset",
+  "ring"
+ ],
+ "forwarded-call": [
+  "redirect",
+  "transfer",
+  "phone",
+  "ring",
+  "telephone",
+  "contact"
+ ],
+ "incoming-call": [
+  "receive",
+  "phone",
+  "ring",
+  "telephone",
+  "contact"
+ ],
+ "missed-call": [
+  "unanswered",
+  "phone",
+  "ring",
+  "telephone",
+  "contact"
+ ],
+ "play": [
+  "start",
+  "media",
+  "player",
+  "video",
+  "music",
+  "controls"
+ ],
+ "circle-play": [
+  "round",
+  "start",
+  "media",
+  "player",
+  "video",
+  "music",
+  "controls"
+ ],
+ "pause": [
+  "stop",
+  "media",
+  "player",
+  "music",
+  "video",
+  "controls"
+ ],
+ "circle-pause": [
+  "round",
+  "stop",
+  "media",
+  "player",
+  "music",
+  "video",
+  "controls"
+ ],
+ "backward": [
+  "rewind",
+  "back",
+  "previous",
+  "media",
+  "player",
+  "music",
+  "video",
+  "controls"
+ ],
+ "forward": [
+  "next",
+  "skip",
+  "media",
+  "player",
+  "music",
+  "video",
+  "controls"
+ ],
+ "fast-backward": [
+  "quick",
+  "skip",
+  "speed",
+  "rewind",
+  "back",
+  "previous",
+  "media",
+  "player",
+  "music",
+  "video",
+  "controls"
+ ],
+ "fast-forward": [
+  "quick",
+  "skip",
+  "speed",
+  "next",
+  "media",
+  "player",
+  "music",
+  "video",
+  "controls"
+ ],
+ "skip-to-previous": [
+  "media",
+  "back",
+  "player",
+  "music",
+  "video",
+  "controls"
+ ],
+ "skip-to-next": [
+  "media",
+  "forward",
+  "player",
+  "music",
+  "video",
+  "controls"
+ ],
+ "email": [
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "forward-email": [
+  "next",
+  "skip",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "received-email": [
+  "incoming",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "check-email": [
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "delete-email": [
+  "remove",
+  "trash",
+  "bin",
+  "erase",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "remove-email": [
+  "minus",
+  "delete",
+  "subtract",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "favourite-email": [
+  "favorite",
+  "star",
+  "like",
+  "saved",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "lock-email": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "add-email": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "download-email": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "speed-email": [
+  "fast",
+  "quick",
+  "express",
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox"
+ ],
+ "email-open": [
+  "mail",
+  "message",
+  "envelope",
+  "letter",
+  "inbox",
+  "read"
+ ],
+ "inbox": [
+  "mail",
+  "tray",
+  "received",
+  "message",
+  "envelope"
+ ],
+ "move-to-inbox": [
+  "reorder",
+  "shift",
+  "mail",
+  "tray",
+  "received",
+  "message",
+  "envelope"
+ ],
+ "archive": [
+  "box",
+  "storage",
+  "store",
+  "backup",
+  "mail",
+  "message",
+  "envelope"
+ ],
+ "unarchive": [
+  "restore",
+  "extract",
+  "unpack",
+  "mail",
+  "message",
+  "envelope"
+ ],
+ "archive-1": [
+  "box",
+  "storage",
+  "store",
+  "backup",
+  "mail",
+  "message",
+  "envelope"
+ ],
+ "bell": [
+  "notification",
+  "alert",
+  "alarm",
+  "reminder",
+  "ring"
+ ],
+ "bell-off": [
+  "notification",
+  "alert",
+  "alarm",
+  "reminder",
+  "ring",
+  "disabled",
+  "disable",
+  "inactive"
+ ],
+ "laptop": [
+  "computer",
+  "notebook",
+  "device",
+  "macbook",
+  "pc",
+  "screen"
+ ],
+ "download-laptop": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "computer",
+  "notebook",
+  "device",
+  "macbook",
+  "pc",
+  "screen"
+ ],
+ "upload-laptop": [
+  "export",
+  "send",
+  "arrow",
+  "computer",
+  "notebook",
+  "device",
+  "macbook",
+  "pc",
+  "screen"
+ ],
+ "laptop-settings": [
+  "computer",
+  "notebook",
+  "device",
+  "macbook",
+  "pc",
+  "gear",
+  "cog",
+  "preferences",
+  "options",
+  "configuration",
+  "screen"
+ ],
+ "lock-laptop": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "computer",
+  "notebook",
+  "device",
+  "macbook",
+  "pc",
+  "screen"
+ ],
+ "favourite-laptop": [
+  "favorite",
+  "star",
+  "like",
+  "saved",
+  "computer",
+  "notebook",
+  "device",
+  "macbook",
+  "pc",
+  "screen"
+ ],
+ "code-laptop": [
+  "developer",
+  "programming",
+  "brackets",
+  "markup",
+  "computer",
+  "notebook",
+  "device",
+  "macbook",
+  "pc",
+  "screen"
+ ],
+ "remove-laptop": [
+  "minus",
+  "delete",
+  "subtract",
+  "computer",
+  "notebook",
+  "device",
+  "macbook",
+  "pc",
+  "screen"
+ ],
+ "desktop": [
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "device"
+ ],
+ "download-desktop": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "device"
+ ],
+ "upload-desktop": [
+  "export",
+  "send",
+  "arrow",
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "device"
+ ],
+ "desktop-settings": [
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "gear",
+  "cog",
+  "preferences",
+  "options",
+  "configuration",
+  "device"
+ ],
+ "lock-desktop": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "device"
+ ],
+ "favourite-desktop": [
+  "favorite",
+  "star",
+  "like",
+  "saved",
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "device"
+ ],
+ "code-desktop": [
+  "developer",
+  "programming",
+  "brackets",
+  "markup",
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "device"
+ ],
+ "remove-desktop": [
+  "minus",
+  "delete",
+  "subtract",
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "device"
+ ],
+ "add-desktop": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "device"
+ ],
+ "remove-desktop-2": [
+  "minus",
+  "delete",
+  "subtract",
+  "computer",
+  "monitor",
+  "screen",
+  "pc",
+  "display",
+  "device"
+ ],
+ "printer": [
+  "print",
+  "paper",
+  "document",
+  "office",
+  "device",
+  "hardware"
+ ],
+ "printer-off": [
+  "print",
+  "paper",
+  "document",
+  "office",
+  "disabled",
+  "disable",
+  "inactive",
+  "device",
+  "hardware"
+ ],
+ "save": [
+  "floppy",
+  "disk",
+  "store",
+  "device",
+  "hardware"
+ ],
+ "bookmark": [
+  "save",
+  "favorite",
+  "ribbon",
+  "read",
+  "later",
+  "device",
+  "hardware"
+ ],
+ "battery": [
+  "power",
+  "energy",
+  "charge",
+  "device",
+  "hardware"
+ ],
+ "charging-battery": [
+  "charge",
+  "power",
+  "plug",
+  "energy",
+  "device",
+  "hardware"
+ ],
+ "code": [
+  "developer",
+  "programming",
+  "brackets",
+  "markup",
+  "web"
+ ],
+ "code-off": [
+  "developer",
+  "programming",
+  "brackets",
+  "markup",
+  "disabled",
+  "disable",
+  "inactive",
+  "web"
+ ],
+ "html": [
+  "web",
+  "markup",
+  "code",
+  "tag",
+  "developer",
+  "programming"
+ ],
+ "internet": [
+  "web",
+  "network",
+  "globe",
+  "online",
+  "developer",
+  "programming"
+ ],
+ "browser": [
+  "web",
+  "window",
+  "website",
+  "page",
+  "internet"
+ ],
+ "upload-browser": [
+  "export",
+  "send",
+  "arrow",
+  "web",
+  "window",
+  "website",
+  "page",
+  "internet"
+ ],
+ "download-browser": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "web",
+  "window",
+  "website",
+  "page",
+  "internet"
+ ],
+ "browser-settings": [
+  "web",
+  "window",
+  "website",
+  "page",
+  "internet",
+  "gear",
+  "cog",
+  "preferences",
+  "options",
+  "configuration"
+ ],
+ "browser-code": [
+  "web",
+  "window",
+  "website",
+  "page",
+  "internet",
+  "developer",
+  "programming",
+  "brackets",
+  "markup"
+ ],
+ "lock-browser": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "web",
+  "window",
+  "website",
+  "page",
+  "internet"
+ ],
+ "add-browser": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "web",
+  "window",
+  "website",
+  "page",
+  "internet"
+ ],
+ "remove-browser": [
+  "minus",
+  "delete",
+  "subtract",
+  "web",
+  "window",
+  "website",
+  "page",
+  "internet"
+ ],
+ "cloud": [
+  "storage",
+  "weather",
+  "sync",
+  "server",
+  "online"
+ ],
+ "cloud-off": [
+  "storage",
+  "weather",
+  "sync",
+  "server",
+  "disabled",
+  "disable",
+  "inactive",
+  "online"
+ ],
+ "lock-cloud": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "storage",
+  "weather",
+  "sync",
+  "server",
+  "online"
+ ],
+ "cloud-settings": [
+  "storage",
+  "weather",
+  "sync",
+  "server",
+  "gear",
+  "cog",
+  "preferences",
+  "options",
+  "configuration",
+  "online"
+ ],
+ "download-cloud": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "storage",
+  "weather",
+  "sync",
+  "server",
+  "online"
+ ],
+ "upload-cloud": [
+  "export",
+  "send",
+  "arrow",
+  "storage",
+  "weather",
+  "sync",
+  "server",
+  "online"
+ ],
+ "download-cloud-1": [
+  "save",
+  "import",
+  "get",
+  "arrow",
+  "storage",
+  "weather",
+  "sync",
+  "server",
+  "online"
+ ],
+ "upload-cloud-1": [
+  "export",
+  "send",
+  "arrow",
+  "storage",
+  "weather",
+  "sync",
+  "server",
+  "online"
+ ],
+ "earth": [
+  "world",
+  "globe",
+  "planet",
+  "international",
+  "trip",
+  "journey",
+  "location"
+ ],
+ "globe": [
+  "world",
+  "earth",
+  "international",
+  "language",
+  "trip",
+  "journey",
+  "location"
+ ],
+ "location-point": [
+  "pin",
+  "place",
+  "map",
+  "gps",
+  "trip",
+  "journey",
+  "world"
+ ],
+ "my-location": [
+  "gps",
+  "current",
+  "pin",
+  "place",
+  "map",
+  "trip",
+  "journey",
+  "world"
+ ],
+ "navigation": [
+  "direction",
+  "gps",
+  "arrow",
+  "trip",
+  "journey",
+  "location",
+  "world"
+ ],
+ "flag": [
+  "report",
+  "mark",
+  "country",
+  "milestone",
+  "trip",
+  "journey",
+  "location",
+  "world"
+ ],
+ "map": [
+  "location",
+  "travel",
+  "navigation",
+  "trip",
+  "journey",
+  "world"
+ ],
+ "travel-bag": [
+  "trip",
+  "journey",
+  "luggage",
+  "location",
+  "world"
+ ],
+ "flight-takeoff": [
+  "plane",
+  "airplane",
+  "travel",
+  "airport",
+  "departure",
+  "trip",
+  "journey",
+  "location",
+  "world"
+ ],
+ "flight-landing": [
+  "plane",
+  "airplane",
+  "travel",
+  "airport",
+  "arrival",
+  "trip",
+  "journey",
+  "location",
+  "world"
+ ],
+ "compass": [
+  "direction",
+  "navigation",
+  "explore",
+  "north",
+  "trip",
+  "journey",
+  "location",
+  "world"
+ ],
+ "backspace": [
+  "erase",
+  "delete",
+  "keyboard",
+  "remove",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "check": [
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "check-box": [
+  "checkbox",
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success",
+  "package",
+  "parcel",
+  "delivery",
+  "shipping",
+  "form",
+  "status",
+  "input"
+ ],
+ "check-circle": [
+  "tick",
+  "done",
+  "complete",
+  "confirm",
+  "ok",
+  "approve",
+  "success",
+  "round",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "clear": [
+  "close",
+  "cross",
+  "x",
+  "cancel",
+  "dismiss",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "clear-circle": [
+  "close",
+  "cross",
+  "x",
+  "cancel",
+  "dismiss",
+  "round",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "warning": [
+  "alert",
+  "caution",
+  "danger",
+  "error",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "sort": [
+  "order",
+  "arrange",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "filter": [
+  "funnel",
+  "sort",
+  "refine",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "filter-1": [
+  "funnel",
+  "sort",
+  "refine",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "remove": [
+  "minus",
+  "delete",
+  "subtract",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "remove-circle": [
+  "minus",
+  "delete",
+  "subtract",
+  "round",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "add": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "add-circle": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "round",
+  "form",
+  "status",
+  "input",
+  "action"
+ ],
+ "box": [
+  "package",
+  "parcel",
+  "delivery",
+  "shipping",
+  "shop",
+  "store",
+  "ecommerce",
+  "buy"
+ ],
+ "cube": [
+  "3d",
+  "box",
+  "block",
+  "shop",
+  "store",
+  "ecommerce",
+  "buy"
+ ],
+ "gift": [
+  "present",
+  "reward",
+  "surprise",
+  "shop",
+  "store",
+  "ecommerce",
+  "buy"
+ ],
+ "package": [
+  "box",
+  "delivery",
+  "parcel",
+  "shipping",
+  "shop",
+  "store",
+  "ecommerce",
+  "buy"
+ ],
+ "shopping-bag": [
+  "shop",
+  "store",
+  "purchase",
+  "buy",
+  "luggage",
+  "ecommerce"
+ ],
+ "shopping-bag-1": [
+  "shop",
+  "store",
+  "purchase",
+  "buy",
+  "luggage",
+  "ecommerce"
+ ],
+ "shopping-bag-2": [
+  "shop",
+  "store",
+  "purchase",
+  "buy",
+  "luggage",
+  "ecommerce"
+ ],
+ "shopping-bags": [
+  "shop",
+  "store",
+  "purchase",
+  "buy",
+  "ecommerce"
+ ],
+ "shopping-cart": [
+  "shop",
+  "store",
+  "purchase",
+  "buy",
+  "basket",
+  "checkout",
+  "ecommerce"
+ ],
+ "payment-card": [
+  "pay",
+  "credit",
+  "debit",
+  "bank",
+  "finance",
+  "cash",
+  "currency"
+ ],
+ "add-payment-card": [
+  "plus",
+  "new",
+  "create",
+  "insert",
+  "pay",
+  "credit",
+  "debit",
+  "bank",
+  "finance",
+  "cash",
+  "currency"
+ ],
+ "remove-payment-card": [
+  "minus",
+  "delete",
+  "subtract",
+  "pay",
+  "credit",
+  "debit",
+  "bank",
+  "finance",
+  "cash",
+  "currency"
+ ],
+ "lock-payment-card": [
+  "secure",
+  "private",
+  "password",
+  "protected",
+  "pay",
+  "credit",
+  "debit",
+  "bank",
+  "finance",
+  "cash",
+  "currency"
+ ],
+ "favourite-payment-card": [
+  "favorite",
+  "star",
+  "like",
+  "saved",
+  "pay",
+  "credit",
+  "debit",
+  "bank",
+  "finance",
+  "cash",
+  "currency"
+ ],
+ "tag": [
+  "label",
+  "price",
+  "finance",
+  "payment",
+  "cash",
+  "currency"
+ ],
+ "wallet": [
+  "purse",
+  "money",
+  "payment",
+  "finance",
+  "cash",
+  "currency"
+ ],
+ "money": [
+  "cash",
+  "banknote",
+  "currency",
+  "payment",
+  "finance"
+ ],
+ "money-dollar": [
+  "cash",
+  "banknote",
+  "currency",
+  "payment",
+  "usd",
+  "price",
+  "finance"
+ ],
+ "dollar": [
+  "money",
+  "currency",
+  "usd",
+  "cash",
+  "price",
+  "finance",
+  "payment"
+ ],
+ "bitcoin": [
+  "crypto",
+  "cryptocurrency",
+  "btc",
+  "currency",
+  "finance",
+  "payment",
+  "cash"
+ ],
+ "rupee": [
+  "inr",
+  "india",
+  "money",
+  "currency",
+  "finance",
+  "payment",
+  "cash"
+ ],
+ "dollar-coin": [
+  "money",
+  "currency",
+  "usd",
+  "cash",
+  "price",
+  "finance",
+  "payment"
+ ],
+ "bitcoin-coin": [
+  "crypto",
+  "cryptocurrency",
+  "btc",
+  "currency",
+  "money",
+  "cash",
+  "finance",
+  "payment"
+ ],
+ "rupee-coin": [
+  "inr",
+  "india",
+  "money",
+  "currency",
+  "cash",
+  "finance",
+  "payment"
+ ],
+ "corona": [
+  "virus",
+  "covid",
+  "germ",
+  "bacteria",
+  "medical",
+  "healthcare",
+  "hospital",
+  "care"
+ ],
+ "ambulance": [
+  "emergency",
+  "hospital",
+  "medical",
+  "vehicle",
+  "healthcare",
+  "care"
+ ],
+ "sanitizer": [
+  "hygiene",
+  "clean",
+  "hands",
+  "medical",
+  "healthcare",
+  "hospital",
+  "care"
+ ],
+ "stethoscope": [
+  "doctor",
+  "medical",
+  "health",
+  "healthcare",
+  "hospital",
+  "care"
+ ],
+ "medicine": [
+  "pill",
+  "drug",
+  "pharmacy",
+  "health",
+  "medical",
+  "healthcare",
+  "hospital",
+  "care"
+ ],
+ "syringe": [
+  "injection",
+  "vaccine",
+  "health",
+  "medical",
+  "healthcare",
+  "hospital",
+  "care"
+ ],
+ "mask": [
+  "face",
+  "covering",
+  "health",
+  "medical",
+  "healthcare",
+  "hospital",
+  "care"
+ ],
+ "heart-rate": [
+  "ecg",
+  "love",
+  "like",
+  "favorite",
+  "health",
+  "pulse",
+  "heartbeat",
+  "cardio",
+  "medical",
+  "healthcare",
+  "hospital",
+  "care"
+ ],
+ "heart-rate-1": [
+  "ecg",
+  "love",
+  "like",
+  "favorite",
+  "health",
+  "pulse",
+  "heartbeat",
+  "cardio",
+  "medical",
+  "healthcare",
+  "hospital",
+  "care"
+ ],
+ "bar-chart": [
+  "statistics",
+  "stats",
+  "analytics",
+  "graph",
+  "report",
+  "data"
+ ],
+ "bar-chart-1": [
+  "statistics",
+  "stats",
+  "analytics",
+  "graph",
+  "report",
+  "data"
+ ],
+ "bar-chart-2": [
+  "statistics",
+  "stats",
+  "analytics",
+  "graph",
+  "report",
+  "data"
+ ],
+ "bar-chart-3": [
+  "statistics",
+  "stats",
+  "analytics",
+  "graph",
+  "report",
+  "data"
+ ],
+ "bar-chart-4": [
+  "statistics",
+  "stats",
+  "analytics",
+  "graph",
+  "report",
+  "data"
+ ],
+ "bar-chart-5": [
+  "statistics",
+  "stats",
+  "analytics",
+  "graph",
+  "report",
+  "data"
+ ],
+ "pie-chart": [
+  "graph",
+  "statistics",
+  "stats",
+  "analytics",
+  "report",
+  "data"
+ ],
+ "pie-chart-1": [
+  "graph",
+  "statistics",
+  "stats",
+  "analytics",
+  "report",
+  "data"
+ ],
+ "donut-chart": [
+  "doughnut",
+  "ring",
+  "pie",
+  "graph",
+  "statistics",
+  "stats",
+  "analytics",
+  "report",
+  "data"
+ ],
+ "graph": [
+  "chart",
+  "statistics",
+  "analytics",
+  "line",
+  "report",
+  "data"
+ ],
+ "smile": [
+  "happy",
+  "face",
+  "emotion",
+  "emoticon",
+  "feeling",
+  "reaction"
+ ],
+ "sad": [
+  "unhappy",
+  "frown",
+  "emotion",
+  "emoticon",
+  "face",
+  "feeling",
+  "reaction"
+ ],
+ "meh": [
+  "neutral",
+  "face",
+  "emotion",
+  "emoticon",
+  "feeling",
+  "reaction"
+ ],
+ "grin": [
+  "happy",
+  "laugh",
+  "smile",
+  "emotion",
+  "emoticon",
+  "face",
+  "feeling",
+  "reaction"
+ ],
+ "depression": [
+  "sad",
+  "unhappy",
+  "emotion",
+  "emoticon",
+  "face",
+  "feeling",
+  "reaction"
+ ],
+ "thumbs-up": [
+  "like",
+  "approve",
+  "dislike",
+  "vote",
+  "feedback",
+  "top",
+  "upper",
+  "north",
+  "increase",
+  "emoticon",
+  "face",
+  "feeling",
+  "reaction",
+  "emotion"
+ ],
+ "thumbs-down": [
+  "dislike",
+  "like",
+  "vote",
+  "feedback",
+  "bottom",
+  "lower",
+  "south",
+  "decrease",
+  "emoticon",
+  "face",
+  "feeling",
+  "reaction",
+  "emotion"
+ ],
+ "heart": [
+  "love",
+  "like",
+  "favorite",
+  "health",
+  "emoticon",
+  "face",
+  "feeling",
+  "reaction",
+  "emotion"
+ ],
+ "broken-heart": [
+  "split",
+  "heartbreak",
+  "love",
+  "like",
+  "favorite",
+  "health",
+  "emoticon",
+  "face",
+  "feeling",
+  "reaction",
+  "emotion"
+ ]
+}

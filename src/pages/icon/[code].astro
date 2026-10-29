@@ -1,0 +1,12 @@
+---
+// One ready-made page per icon so /icon/<code-name> links work on GitHub Pages (SPEC §5.1)
+import Home from '../../components/Home.astro';
+import { icons } from '../../lib/site';
+
+export function getStaticPaths() {
+  return icons.map((icon) => ({ params: { code: icon.code }, props: { name: icon.name } }));
+}
+const { code } = Astro.params;
+const { name } = Astro.props;
+---
+<Home open={code} title={`${name} icon · Kalai Icons`} />

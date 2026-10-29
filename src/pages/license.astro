@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import { FIGMA_URL, url, ui } from '../lib/site';
+import licenseText from '../../LICENSE?raw';
+
+const license = licenseText.trim();
+const cards = [
+  { icon: 'check', tag: 'Allowed', title: 'Personal and commercial use', text: 'Websites, apps, products, slides, client work and things you sell.' },
+  { icon: 'check', tag: 'Allowed', title: 'Change them', text: 'Recolor, resize, edit or combine the icons however you like.' },
+  { icon: 'check', tag: 'Allowed', title: 'Credit welcome, not required', text: "You don't have to mention Kalai Icons. If you'd like to, a link to the site is always appreciated." },
+  { icon: 'info', tag: 'One condition', title: 'Sharing the whole set?', text: 'If you redistribute the icon set itself, include the LICENSE file from the ZIP.', hl: true },
+];
+---
+<Base title="License · Kalai Icons" current="license">
+  <main class="wrap page-top">
+    <a class="link back" href={url()}>← All icons</a>
+    <div class="lic-head">
+      <h1 class="display-l">License<span class="dot">.</span></h1>
+      <p>Kalai Icons are free and open source under the <strong>MIT License</strong>. Use them in personal and commercial work. Credit is welcome, never required.</p>
+    </div>
+
+    <section class="lic-section" aria-labelledby="plain">
+      <h2 class="heading" id="plain">In plain words</h2>
+      <div class="cards">
+        {cards.map((c) => (
+          <div class="card">
+            <span class={`badge ${c.hl ? 'hl' : ''}`}><Fragment set:html={ui(c.icon, 18)} /></span>
+            <span class={`mono-label ${c.hl ? 'hl' : ''}`}>{c.tag}</span>
+            <h3>{c.title}</h3>
+            <p>{c.text}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="lic-section" aria-labelledby="full">
+      <div class="lic-text-head">
+        <h2 class="heading" id="full">Full license text</h2>
+        <span class="mono-s muted">also in LICENSE inside the ZIP</span>
+        <button class="btn btn-secondary sm" type="button" id="copy-license"><Fragment set:html={ui('clipboard', 16)} />Copy</button>
+      </div>
+      <pre class="lic-pre" id="license-text">{license}</pre>
+    </section>
+
+    <section class="lic-section" aria-labelledby="figma">
+      <h2 class="heading" id="figma">About the Figma Community file</h2>
+      <p class="figma-box" style="margin-top:16px">The same icons on the Figma Community are published under <strong>CC BY 4.0</strong>, Figma's license for free community files. Downloads and code from this website use MIT. <a href={FIGMA_URL} target="_blank" rel="noopener">Open in Figma ↗</a></p>
+    </section>
+  </main>
+  <script>
+    import { $, copy } from '../scripts/common';
+    const text = $('#license-text');
+    $('#copy-license').addEventListener('click', () => copy(text.textContent!, 'Copied! License text is on your clipboard', text));
+  </script>
+</Base>

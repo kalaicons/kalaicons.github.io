@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import { COUNT, url, ui } from '../lib/site';
+---
+<Base title="Icon not found · Kalai Icons">
+  <main class="wrap">
+    <div class="nf">
+      <p class="display-404" aria-hidden="true">404<span class="dot">.</span></p>
+      <div class="nf-text">
+        <h1 class="display-m">Icon not found</h1>
+        <p>There's no icon at <code class="inline-code" id="nf-path">/icon/…</code>. It may have a different name. Try searching for it.</p>
+      </div>
+    </div>
+    <form class="nf-form" id="nf-form" action={url()} method="get" role="search">
+      <Fragment set:html={ui('search', 22)} />
+      <label class="sr-only" for="nf-q">Search icons</label>
+      <input class="body-l" id="nf-q" name="q" type="search" autocomplete="off" placeholder="Search icons, tags, synonyms" />
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+    <p class="nf-help">Search looks at icon names, tags and synonyms, so "person" also finds User.</p>
+    <a class="link nf-browse" href={url()}>Browse all {COUNT} icons →</a>
+  </main>
+  <script>
+    import { $, BASE } from '../scripts/common';
+    const path = '/' + location.pathname.slice(BASE.length).replace(/\/$/, '');
+    $('#nf-path').textContent = path;
+    const words = decodeURIComponent(path.split('/').filter(Boolean).pop() ?? '').replace(/[-_+]+/g, ' ').trim();
+    $<HTMLInputElement>('#nf-q').value = words;
+  </script>
+</Base>

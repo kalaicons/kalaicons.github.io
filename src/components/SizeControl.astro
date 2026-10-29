@@ -1,0 +1,13 @@
+---
+// Size slider that snaps to stops (DESIGN §3.6). Behavior: scripts/controls.ts
+interface Props { id: string; stops: number[]; ticks?: boolean }
+const { id, stops, ticks = false } = Astro.props;
+---
+<div class="size-ctl" data-size-ctl={id} data-stops={stops.join(',')}>
+  <div class="size-head">
+    <label class="mono-label ctl-label" for={`${id}-range`}>Size</label>
+    <output class="size-val" for={`${id}-range`}>24px</output>
+  </div>
+  <input class="range" id={`${id}-range`} type="range" min="0" max={stops.length - 1} step="1" value={stops.indexOf(24)} />
+  {ticks && <div class="ticks mono-xs" aria-hidden="true">{stops.map((s) => <span>{s}</span>)}</div>}
+</div>

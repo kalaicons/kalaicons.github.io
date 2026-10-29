@@ -1,0 +1,235 @@
+---
+import Base from '../layouts/Base.astro';
+import ColorControl from './ColorControl.astro';
+import SizeControl from './SizeControl.astro';
+import { icons, COUNT, CATEGORY_COUNT, DESIGNER_URL, url, ui, slug } from '../lib/site';
+import { GLOBAL_STOPS, PANEL_STOPS } from '../lib/stops';
+
+interface Props { open?: string; title?: string }
+const { open, title } = Astro.props;
+
+const categories: { name: string; slug: string; items: { icon: (typeof icons)[number]; n: number }[] }[] = [];
+icons.forEach((icon, i) => {
+  let c = categories[categories.length - 1];
+  if (!c || c.name !== icon.category) categories.push((c = { name: icon.category, slug: slug(icon.category), items: [] }));
+  c.items.push({ icon, n: i + 1 });
+});
+const pad = (n: number, w = 3) => String(n).padStart(w, '0');
+const sprite = url('sprite.svg');
+---
+<Base title={title}>
+  <section class="wrap hero">
+    <h1 class="display-xl">Kalai<br />Icons<button class="hero-dot" id="dot" type="button" aria-label="Kalai Icons">.</button></h1>
+    <dl class="specs mono-m">
+      <dt>Icons</dt><dd><strong>{COUNT}</strong> in {CATEGORY_COUNT} categories</dd>
+      <div class="spec-desktop"><dt>Grid</dt><dd>24 × 24 px, 2px padding</dd></div>
+      <div class="spec-desktop"><dt>Stroke</dt><dd>2px, round caps and joins</dd></div>
+      <div class="spec-mobile"><dt>Style</dt><dd>24 × 24, 2px round stroke</dd></div>
+      <dt>Formats</dt><dd>SVG · JSX · Vue · Data URL · PNG</dd>
+      <dt>License</dt><dd>MIT, free for commercial use</dd>
+      <dt>Designer</dt><dd><a href={DESIGNER_URL} target="_blank" rel="noopener">Ananthanath A. ↗</a></dd>
+    </dl>
+  </section>
+
+  <div class="toolbar" id="toolbar">
+    <div class="wrap toolbar-inner">
+      <label class="cell search-cell">
+        <Fragment set:html={ui('search', 22, 'search-ic')} />
+        <span class="sr-only">Search icons</span>
+        <input id="q" class="body-l" type="search" autocomplete="off" spellcheck="false"
+          placeholder="Search icons, tags, synonyms" data-mobile-placeholder="Search icons, tags…" />
+        <kbd class="kbd" aria-hidden="true">/</kbd>
+        <button class="clear-btn" id="q-clear" type="button" aria-label="Clear search" hidden><Fragment set:html={ui('clear', 18)} /></button>
+      </label>
+
+      <div class="cell has-btn cat-cell">
+        <button class="cell-btn" id="cat-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="cat-menu">
+          <span class="mono-label">Category</span>
+          <span class="val" data-cat-val>All · {COUNT}</span>
+          <Fragment set:html={ui('chevron-down', 18, 'chev')} />
+        </button>
+        <ul class="menu" id="cat-menu" role="listbox" aria-label="Category" tabindex="-1" hidden>
+          <li class="option" role="option" data-cat="" aria-selected="true"><span class="ck"><Fragment set:html={ui('check', 18)} /></span>All<span class="n">{COUNT}</span></li>
+          {categories.map((c) => (
+            <li class="option" role="option" data-cat={c.slug} aria-selected="false"><span class="ck"><Fragment set:html={ui('check', 18)} /></span>{c.name}<span class="n">{c.items.length}</span></li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="cell has-btn color-cell">
+        <button class="cell-btn" id="color-btn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="color-pop">
+          <span class="mono-label">Color</span>
+          <span class="color-chip" data-color-chip></span>
+          <span class="val" data-color-val>Theme</span>
+          <Fragment set:html={ui('chevron-down', 18, 'chev')} />
+        </button>
+        <div class="popover" id="color-pop" role="dialog" aria-label="Color for all icons" hidden>
+          <ColorControl id="g-color" />
+          <div class="popover-foot caption">
+            <span class="muted">Default follows the theme</span>
+            <button class="link" type="button" data-reset>Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cell size-cell">
+        <SizeControl id="g-size" stops={GLOBAL_STOPS} ticks />
+      </div>
+
+      <div class="cell m-cell m-first">
+        <button class="cell-btn" id="m-cat-btn" type="button" aria-haspopup="dialog" aria-expanded="false">
+          <span class="mono-label">Cat.</span>
+          <span class="val" data-cat-val>All · {COUNT}</span>
+          <Fragment set:html={ui('chevron-down', 18, 'chev')} />
+        </button>
+      </div>
+      <div class="cell m-cell">
+        <button class="cell-btn" id="m-style-btn" type="button" aria-haspopup="dialog" aria-expanded="false">
+          <span class="mono-label">Style</span>
+          <span class="color-chip" data-color-chip></span>
+          <span class="val" data-size-val>24px</span>
+          <Fragment set:html={ui('chevron-down', 18, 'chev')} />
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap icons" id="main">
+    <div id="sections">
+      {categories.map((c, ci) => (
+        <section class="section" data-cat={c.slug} aria-labelledby={`sec-${c.slug}`}>
+          <div class="sec-head">
+            <span class="sec-num mono-m">{pad(ci + 1, 2)}</span>
+            <h2 class="heading" id={`sec-${c.slug}`}>{c.name}</h2>
+            <span class="sec-count mono-m">{c.items.length} icons</span>
+          </div>
+          <div class="grid">
+            {c.items.map(({ icon, n }) => (
+              <button class="tile" type="button" data-code={icon.code} data-n={pad(n)} aria-label={icon.name}>
+                <span class="t-num" aria-hidden="true">{pad(n)}</span>
+                <svg aria-hidden="true"><use href={`${sprite}#${icon.code}`} /></svg>
+                <span class="t-name" aria-hidden="true">{icon.code}</span>
+              </button>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    <section id="results" hidden aria-labelledby="res-title">
+      <div class="res-head">
+        <div>
+          <h2 class="heading" id="res-title"></h2>
+          <p class="res-note mono-s muted" id="res-note"></p>
+        </div>
+        <button class="link" type="button" data-clear>Clear search</button>
+      </div>
+      <div class="grid" id="res-grid">
+        <a class="secret" id="secret" href={DESIGNER_URL} target="_blank" rel="noopener" hidden>
+          <span class="t-num">000</span>
+          <span class="secret-badge">SECRET</span>
+          <span class="secret-sig" aria-hidden="true">signature<br />icon</span>
+          <span class="mono-s" style="opacity:.7">ananthanath</span>
+          <span class="secret-title">Made by Ananthanath A.</span>
+          <p>I drew all {COUNT} Kalai Icons by hand in Figma. Thanks for digging this deep. Come say hi.</p>
+          <span class="btn btn-primary">nathdesign.in ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="empty" id="empty" hidden>
+      <div class="empty-ic"><Fragment set:html={ui('search', 32)} /></div>
+      <h2 id="empty-title"></h2>
+      <p id="empty-text"></p>
+      <div class="empty-actions">
+        <button class="btn btn-primary" type="button" id="empty-all">Search all categories</button>
+        <button class="btn btn-secondary" type="button" data-clear id="empty-clear">Clear search</button>
+      </div>
+    </section>
+    <p class="sr-only" aria-live="polite" id="live"></p>
+  </main>
+
+  <!-- Icon panel (DESIGN §4.5) -->
+  <div class="scrim" id="scrim" hidden></div>
+  <div class="panel-wrap" id="panel-wrap" hidden>
+    <div class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="p-name">
+      <div class="p-top">
+        <span class="p-num" id="p-num"></span>
+        <span class="p-addr" id="p-addr"></span>
+        <span class="p-hint">Esc to close · ← → previous / next</span>
+        <button class="icon-btn" type="button" id="p-close" aria-label="Close"><Fragment set:html={ui('clear', 18)} /></button>
+      </div>
+      <div class="p-body">
+        <div class="p-left">
+          <div class="p-preview"><svg id="p-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"></svg></div>
+          <div class="p-cust">
+            <div class="p-cust-head">
+              <span class="mono-label">Customize this icon</span>
+              <button class="link" type="button" id="p-reset">Reset to global</button>
+            </div>
+            <ColorControl id="p-color" />
+            <SizeControl id="p-size" stops={PANEL_STOPS} ticks />
+          </div>
+        </div>
+        <div class="p-right">
+          <div class="p-info">
+            <h2 class="display-m" id="p-name"></h2>
+            <div class="p-meta">
+              <span class="code-chip"><span id="p-code"></span><button class="icon-btn" type="button" id="p-copy-name"><Fragment set:html={ui('clipboard', 16)} /></button></span>
+              <span>in <a href="#" id="p-cat"></a></span>
+            </div>
+          </div>
+          <div class="p-tags-wrap"><div class="tags" id="p-tags" aria-label="Tags"></div></div>
+          <div class="actions">
+            <button class="btn btn-primary" type="button" id="p-copy-svg"><Fragment set:html={ui('clipboard', 18)} />Copy SVG</button>
+            <button class="btn btn-secondary" type="button" id="p-dl-svg"><Fragment set:html={ui('download-1', 18)} />Download SVG</button>
+            <button class="btn btn-secondary" type="button" id="p-dl-png"><Fragment set:html={ui('download-1', 18)} />Download PNG</button>
+          </div>
+          <div class="p-code">
+            <div class="tabs" role="tablist" aria-label="Code format">
+              <button class="tab" role="tab" type="button" id="tab-svg" data-format="svg" aria-selected="true" aria-controls="p-codeblock">SVG</button>
+              <button class="tab" role="tab" type="button" id="tab-jsx" data-format="jsx" aria-selected="false" aria-controls="p-codeblock" tabindex="-1">JSX</button>
+              <button class="tab" role="tab" type="button" id="tab-vue" data-format="vue" aria-selected="false" aria-controls="p-codeblock" tabindex="-1">Vue</button>
+              <button class="tab" role="tab" type="button" id="tab-dataurl" data-format="dataurl" aria-selected="false" aria-controls="p-codeblock" tabindex="-1">Data URL</button>
+            </div>
+            <div class="code-wrap">
+              <pre class="code-block" id="p-codeblock" role="tabpanel" aria-labelledby="tab-svg" tabindex="0"></pre>
+              <button class="btn btn-secondary" type="button" id="p-copy-code"><Fragment set:html={ui('clipboard', 16)} />Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile bottom sheets (DESIGN §4.10) -->
+  <div class="sheet tall" id="sheet-cat" role="dialog" aria-modal="true" aria-labelledby="sheet-cat-title" hidden>
+    <div class="grab" aria-hidden="true"></div>
+    <div class="sheet-head"><h2 class="heading" id="sheet-cat-title">Category</h2><button class="icon-btn" type="button" data-sheet-close aria-label="Close"><Fragment set:html={ui('clear', 18)} /></button></div>
+    <div class="sheet-body">
+      <div class="sheet-list" role="listbox" aria-label="Category">
+        <button class="option" type="button" role="option" data-cat="" aria-selected="true"><span class="ck"><Fragment set:html={ui('check', 18)} /></span>All<span class="n">{COUNT}</span></button>
+        {categories.map((c) => (
+          <button class="option" type="button" role="option" data-cat={c.slug} aria-selected="false"><span class="ck"><Fragment set:html={ui('check', 18)} /></span>{c.name}<span class="n">{c.items.length}</span></button>
+        ))}
+      </div>
+    </div>
+  </div>
+  <div class="sheet" id="sheet-style" role="dialog" aria-modal="true" aria-labelledby="sheet-style-title" hidden>
+    <div class="grab" aria-hidden="true"></div>
+    <div class="sheet-head"><h2 class="heading" id="sheet-style-title">Style all icons</h2><button class="icon-btn" type="button" data-sheet-close aria-label="Close"><Fragment set:html={ui('clear', 18)} /></button></div>
+    <div class="sheet-body">
+      <ColorControl id="m-color" />
+      <SizeControl id="m-size" stops={GLOBAL_STOPS} ticks />
+      <div class="sheet-foot">
+        <button class="btn btn-secondary" type="button" data-reset>Reset</button>
+        <button class="btn btn-primary" type="button" data-sheet-close>Done</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="application/json" id="boot" set:html={JSON.stringify({ open: open ?? null })}></script>
+  <script>
+    import '../scripts/home';
+  </script>
+</Base>
