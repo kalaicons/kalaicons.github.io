@@ -1,9 +1,9 @@
 import { defineConfig } from 'astro/config';
 
-// GitHub Pages project site: <username>.github.io/kalai-icons (D-29, D-30)
+// GitHub Pages organization site at the root of kalaicons.github.io (D-29, D-54)
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://example.github.io',
-  base: '/kalai-icons',
+  site: 'https://kalaicons.github.io',
+  base: '/',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
   devToolbar: { enabled: false },
