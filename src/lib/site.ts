@@ -6,8 +6,7 @@ export const CATEGORY_COUNT = data.categories;
 export const VERSION = 'v' + data.version;
 
 export const DESIGNER_URL = 'https://nathdesign.in/';
-// Placeholder until the Figma Community address is known (BUILD-PLAN §4.3)
-export const FIGMA_URL = 'https://www.figma.com/community';
+export const FIGMA_URL = 'https://www.figma.com/community/file/1071678557813409125/kalai-icons-free-icon-library';
 // Set automatically when GitHub builds the site
 export const GITHUB_URL = 'https://github.com/' + (process.env.GITHUB_REPOSITORY ?? '');
 
