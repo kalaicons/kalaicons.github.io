@@ -7,8 +7,6 @@ export const VERSION = 'v' + data.version;
 
 export const DESIGNER_URL = 'https://nathdesign.in/';
 export const FIGMA_URL = 'https://www.figma.com/community/file/1071678557813409125/kalai-icons-free-icon-library';
-// Set automatically when GitHub builds the site
-export const GITHUB_URL = 'https://github.com/' + (process.env.GITHUB_REPOSITORY ?? '');
 
 export const BASE = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 export const url = (path = '') => BASE + path.replace(/^\//, '');

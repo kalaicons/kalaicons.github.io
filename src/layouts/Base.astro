@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { COUNT, VERSION, DESIGNER_URL, FIGMA_URL, GITHUB_URL, url, ui, MOON, SUN } from '../lib/site';
+import { COUNT, VERSION, DESIGNER_URL, FIGMA_URL, url, ui, MOON, SUN } from '../lib/site';
 
 interface Props { title?: string; description?: string; current?: 'license'; shareDescription?: string; sharePath?: string }
 const {
@@ -58,7 +58,6 @@ const shareImageAlt = `Kalai Icons: ${COUNT} free icons for designers and develo
       <nav class="header-nav" aria-label="Main">
         <a class="nav-link" href={url('license')} aria-current={current === 'license' ? 'page' : undefined}>License</a>
         <a class="nav-link" href={FIGMA_URL} target="_blank" rel="noopener">Figma ↗</a>
-        <a class="nav-link" href={GITHUB_URL} target="_blank" rel="noopener">GitHub ↗</a>
       </nav>
       <div class="header-actions">
         <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
@@ -81,7 +80,6 @@ const shareImageAlt = `Kalai Icons: ${COUNT} free icons for designers and develo
       <div class="footer-links">
         <a class="nav-link" href={url('license')}>MIT License</a>
         <a class="nav-link" href={FIGMA_URL} target="_blank" rel="noopener">Figma Community ↗</a>
-        <a class="nav-link" href={GITHUB_URL} target="_blank" rel="noopener">GitHub ↗</a>
       </div>
       <p class="footer-meta mono-s muted">{VERSION} · {COUNT} icons</p>
     </div>
