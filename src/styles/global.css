@@ -217,18 +217,22 @@ code, kbd, pre { font-family: var(--font-mono); }
 .cell-btn:hover, .cell-btn[aria-expanded="true"] { background: var(--surface); }
 .cell-btn:focus-visible { outline-offset: -2px; }
 .cell.has-btn { padding: 0; }
-.cell-btn .val { font-weight: 600; font-size: 14px; white-space: nowrap; }
+.cell-btn .val { font-weight: 600; font-size: 14px; white-space: nowrap; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .cell-btn .val.active { color: var(--accent-text); }
 .cell-btn .mono-label { color: var(--text-muted); }
 .chev { margin-left: auto; transition: transform var(--ease); }
 [aria-expanded="true"] > .chev { transform: rotate(180deg); }
-.cat-cell { width: 240px; }
+.cat-cell { width: 272px; }
 .color-cell { width: 200px; }
 .size-cell { width: 280px; padding-right: 0; }
 .size-cell .mono-label { color: var(--text-muted); }
 .color-chip { width: 16px; height: 16px; border: 1px solid var(--border-control); border-radius: 2px; flex: none; }
 .cell-btn .hex-val { font: 500 13px/1 var(--font-mono); }
 .m-cell { display: none; }
+/* wide screens fit the longest category names in full */
+@media (min-width: 1280px) { .cat-cell { width: 300px; } }
+/* narrow desktops: leave the search hint enough room */
+@media (min-width: 1024px) and (max-width: 1199px) { .size-cell { width: 200px; } }
 @media (max-width: 1023px) {
   .toolbar-inner { flex-wrap: wrap; height: auto; }
   .search-cell { flex: 1 0 100%; height: 64px; padding-left: 0; }
@@ -274,6 +278,8 @@ code, kbd, pre { font-family: var(--font-mono); }
 .picker-fill { position: absolute; inset: 0; pointer-events: none; }
 .hex-field { flex: 1; display: flex; align-items: center; height: 40px; border: 1px solid var(--border-strong); border-radius: 2px; padding: 0 10px; font: 500 13px/1 var(--font-mono); background: var(--bg); }
 .hex-field span { color: var(--text-muted); }
+/* no color picked: show "Theme", not "#Theme" */
+.hex-field:has(input:placeholder-shown) span { display: none; }
 .hex-field input { flex: 1; min-width: 0; border: 0; outline: none; background: transparent; font: inherit; text-transform: uppercase; padding-left: 2px; }
 .hex-field input::placeholder { color: var(--text-muted); text-transform: none; }
 .hex-field:focus-within { outline: 2px solid var(--accent-text); outline-offset: 2px; }
@@ -472,6 +478,10 @@ code, kbd, pre { font-family: var(--font-mono); }
   .actions .btn-secondary { flex: 1; }
   .tab { flex: 1; height: 44px; padding: 0 6px; }
   .code-chip .icon-btn { width: 44px; height: 42px; }
+  /* 44px touch targets (DESIGN §4.12) */
+  .code-wrap .btn { height: 44px; padding: 0 12px; }
+  .code-block { padding-right: 104px; }
+  .p-cust-head .link { min-height: 44px; display: inline-flex; align-items: center; }
 }
 
 .sheet {

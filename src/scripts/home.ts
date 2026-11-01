@@ -156,8 +156,10 @@ addEventListener('keydown', (e) => {
     q.focus();
   }
 });
-const placeholder = () => (q.placeholder = isMobile() ? q.dataset.mobilePlaceholder! : 'Search icons, tags, synonyms');
-matchMedia('(max-width: 639px)').addEventListener('change', placeholder);
+// the short hint also fits narrow desktops, where search shares its row with the controls
+const shortHint = matchMedia('(max-width: 639px), (min-width: 1024px) and (max-width: 1199px)');
+const placeholder = () => (q.placeholder = shortHint.matches ? q.dataset.mobilePlaceholder! : 'Search icons, tags, synonyms');
+shortHint.addEventListener('change', placeholder);
 placeholder();
 
 function setCategory(s: string) {
