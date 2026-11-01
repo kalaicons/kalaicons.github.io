@@ -5,8 +5,8 @@ import SizeControl from './SizeControl.astro';
 import { icons, COUNT, CATEGORY_COUNT, DESIGNER_URL, url, ui, slug, GLASSES } from '../lib/site';
 import { GLOBAL_STOPS, PANEL_STOPS } from '../lib/stops';
 
-interface Props { open?: string; title?: string }
-const { open, title } = Astro.props;
+interface Props { open?: string; title?: string; shareDescription?: string }
+const { open, title, shareDescription } = Astro.props;
 
 const categories: { name: string; slug: string; items: { icon: (typeof icons)[number]; n: number }[] }[] = [];
 icons.forEach((icon, i) => {
@@ -17,7 +17,7 @@ icons.forEach((icon, i) => {
 const pad = (n: number, w = 3) => String(n).padStart(w, '0');
 const sprite = url('sprite.svg');
 ---
-<Base title={title}>
+<Base title={title} shareDescription={shareDescription}>
   <section class="wrap hero">
     <h1 class="display-xl">Kalai<br />Icons<button class="hero-dot" id="dot" type="button" aria-label="Kalai Icons">.</button></h1>
     <dl class="specs mono-m">

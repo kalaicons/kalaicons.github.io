@@ -2,12 +2,18 @@
 import '../styles/global.css';
 import { COUNT, VERSION, DESIGNER_URL, FIGMA_URL, GITHUB_URL, url, ui, MOON, SUN } from '../lib/site';
 
-interface Props { title?: string; description?: string; current?: 'license' }
+interface Props { title?: string; description?: string; current?: 'license'; shareDescription?: string; sharePath?: string }
 const {
   title = 'Kalai Icons',
   description = `${COUNT} free, open-source outline icons. Change the color and size, then copy SVG, JSX, Vue or a Data URL, or download SVG and PNG.`,
   current,
+  shareDescription = `${COUNT} free icons for designers & developers. Copy as SVG, JSX, Vue or PNG. MIT license.`,
+  sharePath = Astro.url.pathname,
 } = Astro.props;
+// Share preview (D-56): platforms need full addresses, not relative ones
+const shareUrl = new URL(sharePath.replace(/\/?$/, '/'), Astro.site).href;
+const shareImage = new URL('og-image.png', Astro.site).href;
+const shareImageAlt = `Kalai Icons: ${COUNT} free icons for designers and developers, beside a grid of sample icons.`;
 ---
 <!doctype html>
 <html lang="en" data-base={url()}>
@@ -16,6 +22,20 @@ const {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <meta name="description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Kalai Icons" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={shareDescription} />
+  <meta property="og:url" content={shareUrl} />
+  <meta property="og:image" content={shareImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content={shareImageAlt} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={shareDescription} />
+  <meta name="twitter:image" content={shareImage} />
+  <meta name="twitter:image:alt" content={shareImageAlt} />
   <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

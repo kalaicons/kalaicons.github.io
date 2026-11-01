@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import { COUNT, url, ui } from '../lib/site';
 ---
-<Base title="Icon not found · Kalai Icons">
+<Base title="Icon not found · Kalai Icons" sharePath="/"
+  shareDescription={`There's no icon at this address. Search or browse all ${COUNT} free Kalai Icons instead.`}>
   <main class="wrap">
     <div class="nf">
       <p class="display-404" aria-hidden="true">404<span class="dot">.</span></p>

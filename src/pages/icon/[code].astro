@@ -9,4 +9,5 @@ export function getStaticPaths() {
 const { code } = Astro.params;
 const { name } = Astro.props;
 ---
-<Home open={code} title={`${name} icon · Kalai Icons`} />
+<Home open={code} title={`${name} icon · Kalai Icons`}
+  shareDescription={`Free ${name} icon from Kalai Icons. Set the color and size, then copy as SVG, JSX or Vue, or download SVG or PNG.`} />
